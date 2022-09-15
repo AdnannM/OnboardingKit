@@ -2,6 +2,9 @@
 
 OnboardingKit provides an onboarding flow that is simple and easy to implement.
 
+![alt text](https://github.com/AdnannM/OnboardingKit/raw/main/Simulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20Max%20-%202022-09-15%20at%2014.56.16.png)
+
+
 ## Contents
 
 - [Requirements](#requirements)
