@@ -2,7 +2,7 @@
 
 OnboardingKit provides an onboarding flow that is simple and easy to implement.
 
-![alt text]()
+![alt text](https://github.com/AdnannM/OnboardingKit/raw/main/Screenshot%202022-09-15%20at%2015.08.28.png)
 
 
 ## Contents
