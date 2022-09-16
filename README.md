@@ -64,7 +64,8 @@ class ViewController: UIViewController {
                 .init(image: UIImage(named: "image3")!, title: "Kaufe dein Equipment online!"),
                 .init(image: UIImage(named: "image4")!, title: "Random Text"),
             ],
-            tintColor: UIColor(red: 0.00, green: 0.42, blue: 0.69, alpha: 1.00))
+            tintColor: UIColor(red: 0.00, green: 0.42, blue: 0.69, alpha: 1.00),
+                                               themeFont: UIFont(name: "Avenir Next Bold", size: 26) ?? .systemFont(ofSize: 28, weight: .bold))
             self.onboardingKit?.delegate = self
             self.onboardingKit?.launchOnboarding(rootVC: self)
         }
@@ -119,6 +120,7 @@ class MainViewController: UIViewController {
         view.backgroundColor = .systemBackground
     }
 }
+
 
 ```
 
