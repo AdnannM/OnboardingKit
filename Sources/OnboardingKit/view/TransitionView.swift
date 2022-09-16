@@ -38,7 +38,7 @@ class TransitionView: UIView {
     }()
     
     private lazy var titleView: TitleView = {
-        let view = TitleView()
+        let view = TitleView(themeFont: themeFont)
         return view
     }()
     
@@ -52,13 +52,15 @@ class TransitionView: UIView {
     private let slides: [Slide]
     private let viewTintColor: UIColor
     private var index: Int = -1
+    private let themeFont: UIFont
     
     var slideIndex: Int {
         return index
     }
     
-    init(slides: [Slide], viewTintColor: UIColor) {
+    init(slides: [Slide], viewTintColor: UIColor, themeFont: UIFont) {
         self.slides = slides
+        self.themeFont = themeFont
         self.viewTintColor = viewTintColor
         super.init(frame: .zero)
         layout()
